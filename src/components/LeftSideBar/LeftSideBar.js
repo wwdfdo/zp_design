@@ -7,7 +7,7 @@ import { TbNotes } from "react-icons/tb";
 
 const LeftSideBar = () => {
   return (
-    <div className="bg-blue-400 w-1/12  flex flex-col justify-between items-center py-10">
+    <div className=" w-1/12  flex flex-col justify-between items-center pb-20 pt-5">
       <div className="flex flex-col gap-10 justify-center items-center">
         <div className="text-3xl font-bold">zp</div>
         <div className="flex flex-col gap-5 items-center justify-center">

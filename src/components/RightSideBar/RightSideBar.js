@@ -14,12 +14,13 @@ import { GrSettingsOption } from "react-icons/gr";
 import { TbJewishStar } from "react-icons/tb";
 import { FaFacebookF } from "react-icons/fa";
 import { AiOutlineTwitter } from "react-icons/ai";
+import pic from "../../images/profilepic.jpg";
 
 const RightSideBar = () => {
   return (
-    <div className="bg-green-500 w-2/12 flex flex-col justify-between items-center px-6 py-10 ">
-      <div className="flex flex-col w-full gap-5">
-        <div className="flex flex-col gap-4">
+    <div className=" w-2/12 flex flex-col justify-between items-center px-6 py-5 ">
+      <div className="flex flex-col w-full gap-8">
+        <div className="flex flex-col gap-8">
           <div className="flex justify-between items-center ">
             <div className="flex gap-2">
               <div>
@@ -38,7 +39,7 @@ const RightSideBar = () => {
           </div>
           <div className="flex justify-between items-center">
             <div className="w-10 h-10 rounded-full bg-red-900 flex item-center justify-center">
-              img
+              <img className="rounded-full" src={pic} alt="" />
             </div>
             <div className="text-[.7rem]">
               <div>
@@ -62,8 +63,8 @@ const RightSideBar = () => {
             </div>
           </div>
           <div className="flex flex-col gap-1">
-            <div className="flex bg-red-600 w-full rounded-lg border-2 border-black border-opacity-30 ">
-              <div className="w-1/2 bg-yellow-700 rounded-lg py-1">
+            <div className="flex  w-full rounded-lg  shadow-md  ">
+              <div className="w-1/2 bg-yellow-700 bg-opacity-30 rounded-lg py-3 px-2">
                 <SiJsonwebtokens />
               </div>
             </div>
