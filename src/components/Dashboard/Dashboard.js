@@ -11,7 +11,7 @@ import { GiWireframeGlobe } from "react-icons/gi";
 
 const Dashboard = () => {
   return (
-    <div className="bg-red-500 w-2/12 h-[80vh] py-10 px-5">
+    <div className="bg-red-500 w-2/12  py-10 px-5">
       <div className="flex flex-col justify-between bg-white rounded-lg pl-[10%] gap-4 py-10">
         <div>Account</div>
         <div className="flex flex-col justify-between gap-5">
