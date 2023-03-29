@@ -14,11 +14,13 @@ import { GrSettingsOption } from "react-icons/gr";
 import { TbJewishStar } from "react-icons/tb";
 import { FaFacebookF } from "react-icons/fa";
 import { AiOutlineTwitter } from "react-icons/ai";
+import { GoPrimitiveDot } from "react-icons/go";
+import { FiChevronDown } from "react-icons/fi";
 import pic from "../../images/profilepic.jpg";
 
 const RightSideBar = () => {
   return (
-    <div className=" w-2/12 flex flex-col justify-between items-center px-6 py-5 ">
+    <div className=" w-3/12 flex flex-col justify-between items-center px-10 py-5 ">
       <div className="flex flex-col w-full gap-8">
         <div className="flex flex-col gap-8">
           <div className="flex justify-between items-center ">
@@ -42,9 +44,13 @@ const RightSideBar = () => {
               <img className="rounded-full" src={pic} alt="" />
             </div>
             <div className="text-[.7rem]">
-              <div>
-                <p className="font-bold">
-                  Nevzat Gokmen <span>.</span> <span>^</span>
+              <div className="flex items-center gap-1">
+                <p className="font-bold">Nevzat Gokmen</p>
+                <p>
+                  <GoPrimitiveDot />
+                </p>
+                <p>
+                  <FiChevronDown />
                 </p>
               </div>
               <div>Nevzat4023</div>
@@ -63,8 +69,8 @@ const RightSideBar = () => {
             </div>
           </div>
           <div className="flex flex-col gap-1">
-            <div className="flex  w-full rounded-lg  shadow-md  ">
-              <div className="w-1/2 bg-yellow-700 bg-opacity-30 rounded-lg py-3 px-2">
+            <div className="flex  w-full rounded-xl  shadow-md  ">
+              <div className="w-1/2 bg-yellow-400 rounded-xl py-3 px-2">
                 <SiJsonwebtokens />
               </div>
             </div>
