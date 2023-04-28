@@ -38,18 +38,6 @@ const BethelCloud = () => {
             </div>
             <div className="flex items-center gap-3">
               <div className="w-7 h-7 rounded-full flex items-center justify-center">
-                <BsEnvelope size={20} />
-              </div>
-              <p className="text-[1rem] font-semibold">Overview</p>
-            </div>{" "}
-            <div className="flex items-center gap-3">
-              <div className="w-7 h-7 rounded-full flex items-center justify-center">
-                <ImFilesEmpty size={20} />
-              </div>
-              <p className="text-[1rem] font-semibold">Favorites</p>
-            </div>
-            <div className="flex items-center gap-3">
-              <div className="w-7 h-7 rounded-full flex items-center justify-center">
                 <TbFileInvoice size={20} />
               </div>
               <p className="text-[1rem] font-semibold">Updates</p>
